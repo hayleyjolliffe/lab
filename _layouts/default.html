@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
+
+    <link rel="canonical" href="https://lab.hayleyjolliffe.co">
+
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <meta content="A digital reproduction of Hayley Jolliffe's working environment." name=description>
+    <meta content="R&D @ Weston Labs" name=og:title>
+    <meta content="R&D @ Weston Labs" name=og:site_name>
+    <meta content=https://lab.hayleyjolliffe.co name=og:url>
+    <meta content=https://lab.hayleyjolliffe.co/assets/og.png name=og:image>
+
+    <meta content=summary_large_image name=twitter:card>
+    <meta content="R&D @ Weston Labs" name=twitter:title>
+    <meta content="A digital reproduction of Hayley Jolliffe's working environment." name=twitter:description>
+    <meta content=https://lab.hayleyjolliffe.co/assets/og.png name=twitter:image>
+
+</head>
+
+<body>
+
+    <div id="site" class="site">
+
+        <div id="header" class="header">
+
+            <h1><a href="/">R&D @ Weston Labs</a></h1>
+            <a class="crumbLink" href="{{ page.url }}">{{ page.crumb }}</a>
+        
+        </div>
+
+        <div id="sidebar" class="sidebar">
+
+            <div id="sidebarContent" class="sidebarContent">
+
+                <h2>Recently Published</h2>
+
+                <ul id="recentList" class="sidebarList">
+
+                    {% for post in site.posts %}
+                        <li class="sidebarItem"><a href="{{ post.permalink }}">{{ post.title }}</a></li>
+                    {% endfor %}
+
+                </ul>
+
+                <!--
+                <h2>Masterlists</h2>
+
+                <ul id="masterList" class="sidebarList">
+
+                    <li class="sidebarItem"><a href="{{ post.permalink }}">§ Masterlist</a></li>
+                    <li class="sidebarItem"><a href="{{ post.permalink }}">§ Masterlist</a></li>
+                    <li class="sidebarItem"><a href="{{ post.permalink }}">§ Masterlist</a></li>
+                    
+                </ul>
+                -->
+
+                <div id="sidebarFooter" class="sidebarFooter">
+
+                    <ul id="footerList" class="footerList">
+
+                        <li><small><a href="https://ko-fi.com/hayleyjolliffe" target="_blank">Ko-Fi</a></small></li>
+                        <li><small><a href="http://github.com/hayleyjolliffe" target="_blank">GitHub</a></small></li>
+                        <li><small><a href="https://hayleyjolliffe.co" target="_blank">Main Site</a></small></li>
+
+                    </ul>
+
+                    <small>&copy;2025 Hayley Jolliffe</small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="content" class="content">
+
+            <div class="contentContent">
+
+                {{ content }}
+
+            </div>
+        
+        </div>
+
+    </div>
+
+</body>
+</html>

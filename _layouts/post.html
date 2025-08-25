@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="post">
+
+    <div class="postHead">
+
+        <h1>{{ page.title }}</h1>
+
+        <small class="metadata">
+            {{ page.publish }}&emsp;|&emsp;{{ page.readTime }} minute read
+        </small>
+
+    </div>
+
+    <div class="postBody">
+
+        {{ content }}
+
+    </div>
+
+    <div class="postFoot">
+
+        <small class="updated">Last updated: {{ page.update }}</small>
+
+        <div class="backlinksContainer">
+
+            <h3 class="backlinksHeader">Links to this note:</h3>
+
+            <div class="backlinksPost"></div>
+
+        </div>
+
+        <div class="relatedContainer">
+
+        </div>
+
+    </div>
+
+</div>
