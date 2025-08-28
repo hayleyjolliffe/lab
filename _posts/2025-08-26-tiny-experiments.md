@@ -3,7 +3,7 @@ layout: post
 title: Tiny Experiments
 author: Hayley Jolliffe
 permalink: /tiny-experiments
-date: 2025-08-26 23:17:49 -0500
+date: 2025-08-26 23:07:49 -0500
 description: Notes on Tiny Experiments, by Anne-Laure Le Cunff.
 crumb: Tiny Experiments, Anne-Laure Le Cunff
 publish: 26 August, 2025
