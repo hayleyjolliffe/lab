@@ -1,15 +1,12 @@
 # R&D @ Weston Labs
 
-Welcome to R&D lab, the digital home of my working environment.
+The R&D Lab site is a public-facing extension of my research environment. Largely inspired by [Andy Matuschak](https://notes.andymatuschak.org), [Caleb Porzio](https://calebporzio.com), and [Anne-Laure Le Cunff](https://nesslabs.com), the site is built with Jekyll and connected to my Obsidian workspace It creates a workflow for moving notes, experiments, and insights from private exploration to public documentation.
 
-I value [working with the garage door up](https://notes.andymatuschak.org/zCMhncA1iSE74MKKYQS5PBZ), so context might be beneficial here. The site functions like a digital garden, and makes my working notes public. If a note doesn't make sense to you, it's because it wasn't written for you. Additionally, notes may appear incomplete. They likely are. That's part of the fun of experimenting in public ;)
+Key features in this release:
 
-The bulk of my work is open-source and made possible through crowd-funding. Consider sponsoring future work through [Ko-Fi](https://ko-fi.com/hayleyjolliffe).
+- Scalable workflow for self-directed research and experimentation
+- Obsidian + Jekyll integration for low-friction publishing
+- Knowledge linking + automation to surface patterns and insights
+- Lightweight design focused on clarity and long-term maintainability
 
-&mdash; Hayley ([Email](mailto:hayleyjolliffe@proton.me) / [Main Site](https://hayleyjolliffe.co) / [GitHub](https://github.com/hayleyjolliffe))
-
-PS: Navigation is stil in development. For the time being, navigation is done through internal linking within notes. Thanks for being patient!
-
----
-
-This site was largely inpsired by [Andy Matuschak](https://notes.andymatuschak.org) and [Anne-Laure Le Cunff](https://nesslabs.com).
+The project is still in the early stages, but I value [working with the garage door up](https://notes.andymatuschak.org/zCMhncA1iSE74MKKYQS5PBZ), so the goal is simple: build an open, evolving system for learning, documenting, and experimenting in public.
